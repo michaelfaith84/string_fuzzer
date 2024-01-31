@@ -90,7 +90,9 @@ export class StringFuzzer {
     const neighbor = this.ordinalTransposition();
 
     // Remove potential duplicates
-    return [...new Set([...proximity, ...neighbor])];
+    //  And because we're going all out, the expectation is that our
+    //  original string might be present.
+    return [...new Set([...proximity, ...neighbor, ...this.text])];
   }
 }
 

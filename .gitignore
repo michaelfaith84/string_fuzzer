@@ -1,1 +1,4 @@
 /package-lock.json
+/.idea
+/StringFuzzer.test.js
+/index.js

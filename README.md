@@ -31,5 +31,5 @@ true
 fuzzer.fuzz().some((word) => word === "sanders")
 true
 fuzzer.fuzz().some((word) => word === "tmo")
-false // Results do not include the original
+true
 ```
