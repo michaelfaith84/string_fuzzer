@@ -1,5 +1,5 @@
 # StringFuzzer
-    Generating practical typos for fuzzy matchcing.
+    Generating practical typos for fuzzy matching.
 
 Methods return arrays of lowercase strings.<br>
 Considerations:
